@@ -9,7 +9,7 @@ WebServer server(80);
 //Enter your WiFi SSID and PASSWORD
 const char* ssid = "test";
 const char* password = "test";
- 
+
 //===============================================================
 // This routine is executed when you open its IP in browser
 //===============================================================
@@ -19,7 +19,7 @@ void handleRoot() {
 }
 
 void handlesubmit(){
-  String str = Submit_page"
+  String str = "Submit_page";
    server.send(200, "text/html", str); //Send web page
 }
 //===============================================================
